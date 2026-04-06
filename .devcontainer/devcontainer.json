@@ -1,0 +1,10 @@
+{
+  "name": "Hermes-Paperclip-HQ",
+  "image": "mcr.microsoft.com/devcontainers/universal:2", 
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "forwardPorts": [3000, 5000],
+  "postCreateCommand": "pip install hermes-agent && npm install"
+}
